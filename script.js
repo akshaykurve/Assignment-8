@@ -63,7 +63,7 @@ function initAuthHandlers() {
   const authForm = document.getElementById("authForm");
   const authContainer = document.getElementById("auth-container");
 
-  isSignupMode = false;
+  isSignupMode = true;
 
   authContainer.addEventListener("click", (e) => {
     if (e.target && e.target.id === "authToggleLink") {
